@@ -1,0 +1,24 @@
+{
+  "name": "tg-reminder-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to create reminders",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene Shangin <fessracha@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.25",
+    "@types/node-cron": "^2.0.3",
+    "@types/node-telegram-bot-api": "^0.51.0",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.16",
+    "node-cron": "^2.0.3",
+    "node-telegram-bot-api": "^0.51.0"
+  }
+}
